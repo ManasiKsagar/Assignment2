@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /*border: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;*/
+}
+
+.container{
+    background-color: #E5E5FD;
+    border: 10px solid black;
+}
+
+.top_section{
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+   align-items: flex-end;
+}
+.top_section h1{
+   font-size: 40px;
+   font-family: bold;
+   text-transform: uppercase;
+   padding-right: 50px;
+}
+
+.top_section h3{
+    text-align: end;
+    font-size: 20px;
+    padding-right: 50px;
+}
+
+#image{
+    border: 5px solid black;
+    height: 350px;
+    width: 300px;
+    background-image: url(A._P._J._Abdul_Kalam.jpg);
+    background-size: cover;
+    border-radius: 48%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.about_section{
+    margin-top: 50px;
+    padding: 0px 30px 0px 30px;
+}
+
+.about_section h2{
+  font-size: 50px;  
+  font-weight: 400px; 
+  margin-bottom: 20px;
+}
+
+.about_section p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+}
+
+.biography_section{
+    margin-top: 50px;
+    padding: 0px 30px 0px 30px;
+}
+
+.biography_section h3{
+    font-size: 30px;
+    font-weight: 100px;
+    margin-bottom: 10px;
+}
+
+.biography_section ul{
+     font-size: 20px;
+     line-height: 30px;
+     letter-spacing: 1.2px;
+}
+
+footer{
+    margin: 50px 0;
+    padding: 0px 30px 0px 30px;
+}
+
+footer p{
+    text-align: end;
+}
